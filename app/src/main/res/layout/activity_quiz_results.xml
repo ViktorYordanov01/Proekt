@@ -24,10 +24,10 @@
         android:layout_marginTop="50dp"
         android:gravity="center"
         android:layout_below="@+id/congratulationsIcon"
-        android:text="Completed Quiz!"
-        android:textColor="#000000"
+        android:text="Квиза е готов!"
+        android:textColor="#DA2222"
         android:textStyle="bold"
-        android:textSize="15sp"/>
+        android:textSize="25dp"/>
 
     <LinearLayout
         android:layout_below="@+id/successTextView"
@@ -42,32 +42,34 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/correctAnswers"
-            android:textColor="#000000"
-            android:text="Correct Ans:"
+            android:textColor="#DA2222"
+            android:text="Точни отговора:"
             android:textStyle="bold"
-            android:textSize="15sp"/>
+            android:textSize="18dp"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/incorrectAnswers"
             android:layout_marginTop="5dp"
-            android:textColor="#000000"
-            android:text="Incorrect Ans:"
+            android:textColor="#DA2222"
+            android:text="Неточни отговора:"
             android:textStyle="bold"
-            android:textSize="15sp"/>
+            android:textSize="18dp"/>
     </LinearLayout>
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/startNewQuizBtn"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:text="Start New Quiz"
-        android:textColor="#000000"
-        android:textStyle="bold"
-        android:background="@drawable/round_back_green"
         android:layout_alignParentBottom="true"
-        android:layout_margin="20dp"
-        />
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/round_back_red"
+        android:text="Стартирай нов квиз"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
 
 </RelativeLayout>

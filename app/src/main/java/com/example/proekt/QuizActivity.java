@@ -11,7 +11,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Timer;
 import java.util.TimerTask;
@@ -163,16 +162,16 @@ public class QuizActivity extends AppCompatActivity {
 
         if(currentQuestionPosition<questionsLists.size()){
             selectedOptionByUser="";
-            option1.setBackgroundResource(R.drawable.round_back_white_stroke2);
+            option1.setBackgroundResource(R.drawable.round_back_red_stroke2);
             option1.setTextColor(Color.parseColor("#1F6808"));
 
-            option2.setBackgroundResource(R.drawable.round_back_white_stroke2);
+            option2.setBackgroundResource(R.drawable.round_back_red_stroke2);
             option2.setTextColor(Color.parseColor("#1F6808"));
 
-            option3.setBackgroundResource(R.drawable.round_back_white_stroke2);
+            option3.setBackgroundResource(R.drawable.round_back_red_stroke2);
             option3.setTextColor(Color.parseColor("#1F6808"));
 
-            option4.setBackgroundResource(R.drawable.round_back_white_stroke2);
+            option4.setBackgroundResource(R.drawable.round_back_red_stroke2);
             option4.setTextColor(Color.parseColor("#1F6808"));
 
             questions.setText((currentQuestionPosition+1)+"/"+questionsLists.size());
