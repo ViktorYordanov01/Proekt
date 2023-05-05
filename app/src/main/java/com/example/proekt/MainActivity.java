@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         final LinearLayout history = findViewById( R.id.history);
         final LinearLayout geography = findViewById( R.id.geography);
         final LinearLayout culture = findViewById( R.id.culture);
-        final LinearLayout history2 = findViewById(  R.id.history2);
+        final LinearLayout sports =findViewById(R.id.sports);
 
         final Button start = findViewById(R.id.startquiz);
 
@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
                 history.setBackgroundResource(R.drawable.round_back_white_stroke);
                 geography.setBackgroundResource(R.drawable.round_back_white);
                 culture.setBackgroundResource(R.drawable.round_back_white);
-                history2.setBackgroundResource(R.drawable.round_back_white);
+                sports.setBackgroundResource(R.drawable.round_back_white);
 
             }
         });
@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
                 geography.setBackgroundResource(R.drawable.round_back_white_stroke);
                 history.setBackgroundResource(R.drawable.round_back_white);
                 culture.setBackgroundResource(R.drawable.round_back_white);
-                history2.setBackgroundResource(R.drawable.round_back_white);
+                sports.setBackgroundResource(R.drawable.round_back_white);
             }
         });
 
@@ -56,16 +56,16 @@ public class MainActivity extends AppCompatActivity {
                 culture.setBackgroundResource(R.drawable.round_back_white_stroke);
                 geography.setBackgroundResource(R.drawable.round_back_white);
                 history.setBackgroundResource(R.drawable.round_back_white);
-                history2.setBackgroundResource(R.drawable.round_back_white);
+                sports.setBackgroundResource(R.drawable.round_back_white);
             }
         });
 
 
-        history2.setOnClickListener(new View.OnClickListener() {
+        sports.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                selectedTopicName="history2";
-                history2.setBackgroundResource(R.drawable.round_back_white_stroke);
+                selectedTopicName="sports";
+                sports.setBackgroundResource(R.drawable.round_back_white_stroke);
                 culture.setBackgroundResource(R.drawable.round_back_white);
                 geography.setBackgroundResource(R.drawable.round_back_white);
                 history.setBackgroundResource(R.drawable.round_back_white);

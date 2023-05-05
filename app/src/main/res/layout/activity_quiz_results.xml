@@ -27,7 +27,7 @@
         android:text="Квиза е готов!"
         android:textColor="#DA2222"
         android:textStyle="bold"
-        android:textSize="25dp"/>
+        android:textSize="30dp"/>
 
     <LinearLayout
         android:layout_below="@+id/successTextView"
