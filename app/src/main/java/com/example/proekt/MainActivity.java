@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                selectedTopicName="history";
+                selectedTopicName="История";
                 history.setBackgroundResource(R.drawable.round_back_white_stroke);
                 geography.setBackgroundResource(R.drawable.round_back_white);
                 culture.setBackgroundResource(R.drawable.round_back_white);
@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         geography.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                selectedTopicName="geography";
+                selectedTopicName="География";
                 geography.setBackgroundResource(R.drawable.round_back_white_stroke);
                 history.setBackgroundResource(R.drawable.round_back_white);
                 culture.setBackgroundResource(R.drawable.round_back_white);
@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
         culture.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                selectedTopicName="culture";
+                selectedTopicName="Култура";
                 culture.setBackgroundResource(R.drawable.round_back_white_stroke);
                 geography.setBackgroundResource(R.drawable.round_back_white);
                 history.setBackgroundResource(R.drawable.round_back_white);
@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
         sports.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                selectedTopicName="sports";
+                selectedTopicName="Спорт";
                 sports.setBackgroundResource(R.drawable.round_back_white_stroke);
                 culture.setBackgroundResource(R.drawable.round_back_white);
                 geography.setBackgroundResource(R.drawable.round_back_white);

@@ -198,7 +198,7 @@ public class QuizActivity extends AppCompatActivity {
             @Override
             public void run() {
 
-                if(seconds==0){
+                if(seconds==0 && totalTimeInMins ==1){
                     totalTimeInMins--;
                     seconds=59;
                 }

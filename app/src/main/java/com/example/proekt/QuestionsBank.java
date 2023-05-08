@@ -100,11 +100,11 @@ public class QuestionsBank {
     public static List<QuestionsList> getQuestions(String selectedTopicName){
         switch(selectedTopicName){
 
-            case "history":
+            case "История":
                 return historyQuestions();
-            case "sports":
+            case "Спорт":
                 return sportsQuestions();
-            case "geography":
+            case "География":
                 return geographyQuestions();
             default:
                 return cultureQuestions();
