@@ -78,12 +78,12 @@ public class QuestionsBank {
 
         final List<QuestionsList> questionsLists=new ArrayList<>();
 
-        final QuestionsList question1=new QuestionsList("От Берлинския конгрес, 1878 г. до Ньойския договор от 1919 г. Босилеград се намира в пределите на","option1","option2","option3","Княжество България","option1","");
-        final QuestionsList question2=new QuestionsList("След Ньойския договор от 1919 г. Босилеград и останалите части на Западните покрайнини са предадени на","option1","Княжеството на СХС","option3","option4","option1","");
-        final QuestionsList question3=new QuestionsList("question1","option1","option2","option3","option4","option1","");
-        final QuestionsList question4=new QuestionsList("question1","option1","option2","option3","option4","option1","");
-        final QuestionsList question5=new QuestionsList("question1","option1","option2","option3","option4","option1","");
-        final QuestionsList question6=new QuestionsList("question1","option1","option2","option3","option4","option1","");
+        final QuestionsList question1=new QuestionsList("Къде Паисий Хилендарски завършва „История славянобългарска“?","Хилендарският манастир","Зографският манастир","Рилският манастир","Ватопедски манастир","Зографският манастир","");
+        final QuestionsList question2=new QuestionsList("Кое е първото българско списание?","Български орел","Дунавски лебед","Любословие","Будущност","Любословие","");
+        final QuestionsList question3=new QuestionsList("Къде е открито първото девическо взаимно училище?","Плевен","Враца","Котел","Калофер","Плевен","");
+        final QuestionsList question4=new QuestionsList("Къде се създават първите български хорове?","Свищов и Русе","Шумен и Силистра","Лом и Видин","Болград и Одеса","Свищов и Русе","");
+        final QuestionsList question5=new QuestionsList("Как се осъществя издаването на Рибния буквар?","С подкрепата на Русия","С помощта на Хайделбергския университет","Със средства на български търговец","Със собствени средства на Петър Берон","Със средства на български търговец","");
+        final QuestionsList question6=new QuestionsList("Кое от следните произведения не е написано от Софроний Врачански?","Книга за трите вери","Кириакодромион","Видински сборници","Славяноболгарское детеводство","Славяноболгарское детеводство","");
 
         questionsLists.add(question1);
         questionsLists.add(question2);

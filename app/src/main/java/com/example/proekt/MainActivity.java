@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 if(selectedTopicName.isEmpty()){
-                    Toast.makeText(MainActivity.this,"Please slelect the Topic",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this,"Моля изберете област",Toast.LENGTH_SHORT).show();
                 }
                 else{
                     Intent intent=new Intent(MainActivity.this,QuizActivity.class);
