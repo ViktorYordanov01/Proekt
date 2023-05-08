@@ -136,7 +136,7 @@
         android:layout_marginEnd="80dp"
         android:layout_marginBottom="120dp"
         android:background="@drawable/round_back_red"
-        android:text="Към квиза"
+        android:text="Към куиза"
         android:textColor="#FFFFFF"
         android:textStyle="bold" />
     <ImageView

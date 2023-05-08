@@ -266,7 +266,7 @@ public class QuizActivity extends AppCompatActivity {
             final String getUserSelectedAnswer=questionsLists.get(i).getUserSelectedAnswer();
             final String getAnswer=questionsLists.get(i).getAnswer();
 
-            if (getUserSelectedAnswer.equals(getAnswer)) {
+            if (!getUserSelectedAnswer.equals(getAnswer)) {
                 incorrectAnswers++;
             }
         }
