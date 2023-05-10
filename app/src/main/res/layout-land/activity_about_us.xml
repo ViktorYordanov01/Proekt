@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Участващите студенти в проекта са:"
+        android:textSize="20dp"
+        android:textColor="#DA2222"
+        android:textStyle="bold"
+        android:layout_marginTop="70dp"
+        android:layout_marginStart="180dp"/>
+
+    <ImageView
+        android:id="@+id/motiv"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/motiv" />
+
+
+
+        <LinearLayout
+            android:id="@+id/student1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="110dp"
+            android:layout_marginEnd="100dp"
+            android:layout_weight="1"
+            android:background="@drawable/round_back_white"
+            android:gravity="center"
+            android:layout_marginStart="230dp"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="80dp"
+                android:src="@drawable/alexandar" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Александар Арсов"
+                android:textColor="#DA2222"
+                android:textSize="12dp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/student2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="110dp"
+            android:layout_marginEnd="100dp"
+            android:layout_weight="1"
+            android:background="@drawable/round_back_white"
+            android:gravity="center"
+            android:layout_marginStart="5dp"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="80dp"
+                android:src="@drawable/viktor" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Виктор Йорданов"
+                android:textColor="#DA2222"
+                android:textSize="12dp"
+                android:textStyle="bold"/>
+
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/student3"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="100dp"
+        android:layout_weight="1"
+        android:background="@drawable/round_back_white"
+        android:gravity="center"
+        android:layout_marginStart="500dp"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="80dp"
+            android:src="@drawable/alexandra" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Александар Арсов"
+            android:textColor="#DA2222"
+            android:textSize="12dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/ontoTheQuiz"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="120dp"
+        android:background="@drawable/round_back_red"
+        android:text="Към куиза"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+</RelativeLayout>

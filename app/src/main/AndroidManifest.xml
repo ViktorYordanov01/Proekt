@@ -12,15 +12,19 @@
         android:theme="@style/Theme.Proekt"
         tools:targetApi="31">
         <activity
+            android:screenOrientation="unspecified"
             android:name=".MainActivity"
             android:exported="false" />
         <activity
+            android:screenOrientation="unspecified"
             android:name=".QuizResults"
             android:exported="false" />
         <activity
+            android:screenOrientation="unspecified"
             android:name=".QuizActivity"
             android:exported="false" />
         <activity
+            android:screenOrientation="unspecified"
             android:name=".AboutUs"
             android:exported="true">
             <intent-filter>
